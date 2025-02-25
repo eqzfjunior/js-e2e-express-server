@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+pool: juniorpc
 
 steps:
 - task: NodeTool@0
