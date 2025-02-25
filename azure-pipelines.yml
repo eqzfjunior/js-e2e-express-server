@@ -6,7 +6,8 @@
 trigger:
 - main
 
-pool: juniorpc
+pool: 
+  name: juniorpc
 
 steps:
 - task: NodeTool@0
